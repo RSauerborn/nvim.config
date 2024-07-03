@@ -13,4 +13,6 @@ The undodir option requires the creation via:
 mkdir ~/.vim/undodir
 ```
 
+This creates the folder /home/user/.vim/undodir/ (Linux) or C:\Users\User\.vim\undodir (Windows)
+
 Windows versions of neovim may require additional tools (Such as a c compiler like gcc or zig)
