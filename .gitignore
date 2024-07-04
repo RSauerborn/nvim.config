@@ -2,4 +2,4 @@ lazy-lock.json
 .luarc.json
 
 lua/plugins/metrics.nvim
-~/*
+lua/plugins/metrics.lua
