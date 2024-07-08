@@ -4,6 +4,7 @@ return {
         require("autoclose").setup({
             options = {
                 disabled_filetypes = { },
+                disable_command_mode = true
             },
         })
     end
