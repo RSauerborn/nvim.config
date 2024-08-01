@@ -1,5 +1,6 @@
 lazy-lock.json
 .luarc.json
+.metrics.json
 
 lua/plugins/metrics.nvim
 lua/plugins/metrics.lua

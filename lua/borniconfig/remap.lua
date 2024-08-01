@@ -1,7 +1,12 @@
 vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 
+-- Remap netrw file explorer
 vim.keymap.set("n", "<leader>fs", vim.cmd.Ex)
+
+-- Remap page jump
+vim.keymap.set("n", "<C-j>", "<C-d>zz")
+vim.keymap.set("n", "<C-k>", "<C-u>zz")
 
 -- Moves lines to top and bottom with auto indenting
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
